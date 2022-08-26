@@ -17,14 +17,15 @@ header {
     padding: 16px;
     color: rgb(77, 76, 76);
 }
-.logo img{
+
+.logo img {
     background-size: contain;
-   display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50px;
     height: 50px;
-    
+
 }
 
 .wrapper {
@@ -53,11 +54,11 @@ header {
     align-items: center;
 }
 
-.item > .inner h2 {
+.item>.inner h2 {
     margin-bottom: unset;
 }
 
-.item > .inner p {
+.item>.inner p {
     margin-top: 5px;
 }
 
@@ -87,7 +88,7 @@ header {
 
 input[type=text],
 input[type=number] {
-    font-family: sans-serif;
+    font-family: Raleway;
     background: #f7f7f7;
     border: 2px solid #F5E8C7;
     border-radius: 8px;
@@ -103,7 +104,7 @@ input[type=number] {
     font-family: Raleway;
     border-radius: 16px;
     padding: 12px 24px;
-    border:2px solid #F5E8C7;
+    border: 2px solid #F5E8C7;
     color: black;
     font-size: 24px;
     margin-top: auto;
@@ -111,7 +112,7 @@ input[type=number] {
     cursor: pointer;
 }
 
-.btn-submit:hover{
+.btn-submit:hover {
     background: #F5E8C7;
     color: white;
 }
@@ -119,7 +120,7 @@ input[type=number] {
 
 input[type=text],
 input[type=number],
-.btn-submit:focus{
+.btn-submit:focus {
     outline: none;
 }
 
@@ -146,16 +147,16 @@ input[type=number],
 .check-button:hover {
     background: url('../asset/check-solid.png');
     background-size: contain;
-   ;
+    ;
 }
 
-.trash-button{
+.trash-button {
     background: url('../asset/trash-outline.png');
     background-size: 40px 40px;
     width: 40px;
     height: 40px;
     margin-left: 30px;
-    
+
     cursor: pointer;
     border: none;
     ;
@@ -167,7 +168,7 @@ input[type=number],
     ;
 }
 
-.undo-button{
+.undo-button {
     background: url('../asset/undo-ouline.png');
     background-size: contain;
     width: 40px;
@@ -184,16 +185,20 @@ input[type=number],
     color: #F5E8C7;
 }
 
-.check-button:focus, .trash-button {
+.check-button:focus,
+.trash-button {
     outline: none;
 }
 
 footer {
-   text-align: center;
-   padding: 16px;
-   color: #989898;
-   margin: auto;
-   
+    text-align: center;
+    padding: 16px;
+    color: #989898;
+    margin: auto;
+
+}
+.form-hidden {
+    visibility: none;
 }
 
 
