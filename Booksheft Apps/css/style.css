@@ -13,9 +13,9 @@ body {
 }
 
 header {
-    background: #305fe2;
+    background: #F5E8C7;
     padding: 16px;
-    color: white;
+    color: rgb(77, 76, 76);
 }
 
 .wrapper {
@@ -79,8 +79,8 @@ header {
 input[type=text],
 input[type=number] {
     font-family: Raleway;
-    background: #F5F1FF;
-    border: 2px solid #9475EA;
+    background: #f7f7f7;
+    border: 2px solid #F5E8C7;
     border-radius: 8px;
     padding: 16px;
     box-sizing: border-box;
@@ -94,7 +94,7 @@ input[type=number] {
     font-family: Raleway;
     border-radius: 16px;
     padding: 12px 24px;
-    border:2px solid #305fe2;
+    border:2px solid #F5E8C7;
     color: black;
     font-size: 24px;
     margin-top: auto;
@@ -103,7 +103,7 @@ input[type=number] {
 }
 
 .btn-submit:hover{
-    background: #305fe2;
+    background: #F5E8C7;
     color: white;
 }
 
@@ -124,52 +124,66 @@ input[type=number],
 }
 
 .check-button {
-    background: url('../assets/check-outline.svg');
+    background: url('../asset/check-outline.png');
     background-size: contain;
     width: 40px;
     height: 40px;
     margin-left: auto;
     cursor: pointer;
     border: none;
+    ;
 }
 
 .check-button:hover {
-    background: url('../assets/check-solid.svg');
+    background: url('../asset/check-solid.png');
     background-size: contain;
+   ;
 }
 
 .trash-button{
-    background: url('../assets/trash-outline.svg');
+    background: url('../asset/trash-outline.png');
     background-size: contain;
     width: 40px;
     height: 40px;
     margin-left: 16px;
     cursor: pointer;
     border: none;
+    ;
 }
 
 .trash-button:hover {
-    background: url('../assets/trash-fill.svg');
+    background: url('../asset/trash-fill.png');
     background-size: contain;
+    ;
 }
 
 .undo-button{
-    background: url('../assets/undo-ouline.svg');
+    background: url('../asset/undo-ouline.png');
     background-size: contain;
     width: 40px;
     height: 40px;
     margin-left: auto;
     cursor: pointer;
     border: none;
+    ;
 }
 
 .undo-button:hover {
-    background: url('../assets/undo-ouline.svg');
+    background: url('../asset/undo-ouline.png');
     background-size: contain;
+    color: #F5E8C7;
 }
 
 .check-button:focus, .trash-button {
     outline: none;
+}
+
+footer {
+   text-align: center;
+   padding: 16px;
+   color: #989898;
+   margin: auto;
+   
 }
 
 
