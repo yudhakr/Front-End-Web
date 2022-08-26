@@ -17,6 +17,15 @@ header {
     padding: 16px;
     color: rgb(77, 76, 76);
 }
+.logo img{
+    background-size: contain;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    height: 50px;
+    
+}
 
 .wrapper {
     display: flex;
@@ -78,7 +87,7 @@ header {
 
 input[type=text],
 input[type=number] {
-    font-family: Raleway;
+    font-family: sans-serif;
     background: #f7f7f7;
     border: 2px solid #F5E8C7;
     border-radius: 8px;
