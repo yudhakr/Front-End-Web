@@ -142,10 +142,11 @@ input[type=number],
 
 .trash-button{
     background: url('../asset/trash-outline.png');
-    background-size: contain;
+    background-size: 40px 40px;
     width: 40px;
     height: 40px;
-    margin-left: 16px;
+    margin-left: 30px;
+    
     cursor: pointer;
     border: none;
     ;
@@ -153,7 +154,7 @@ input[type=number],
 
 .trash-button:hover {
     background: url('../asset/trash-fill.png');
-    background-size: contain;
+    background-size: 40px 40px;
     ;
 }
 
