@@ -1,9 +1,8 @@
 #  Project Front-End-Web
  submmision Project Front End Dicoding
  
- ------
- install text editor
- browser 
+<li> install text editor</li>
+ <li>browser </li>
  ---
- masuk ke file cd
- run
+ <li>masuk ke file cd</li>
+ <li>run</li>
