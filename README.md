@@ -1,2 +1,9 @@
-# Front-End-Web
- submision Project Front End Dicoding
+#  Project Front-End-Web
+ submmision Project Front End Dicoding
+ 
+ ------
+ install text editor
+ browser 
+ ---
+ masuk ke file cd
+ run
